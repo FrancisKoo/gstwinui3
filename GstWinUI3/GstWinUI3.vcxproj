@@ -103,6 +103,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GstHelper.h" />
+    <ClInclude Include="GstWinUI3VideoSink.h" />
+    <ClInclude Include="GstWinUI3Window.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h">
       <DependentUpon>App.xaml</DependentUpon>
@@ -117,6 +119,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GstHelper.cpp" />
+    <ClCompile Include="GstWinUI3VideoSink.cpp" />
+    <ClCompile Include="GstWinUI3Window.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>

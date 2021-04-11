@@ -14,10 +14,14 @@
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="$(GeneratedFilesDir)module.g.cpp" />
     <ClCompile Include="GstHelper.cpp" />
+    <ClCompile Include="GstWinUI3Window.cpp" />
+    <ClCompile Include="GstWinUI3VideoSink.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="GstHelper.h" />
+    <ClInclude Include="GstWinUI3Window.h" />
+    <ClInclude Include="GstWinUI3VideoSink.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Assets">
