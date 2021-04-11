@@ -4,6 +4,12 @@
 
 using namespace winrt;
 
+G_BEGIN_DECLS
+
+GST_PLUGIN_STATIC_DECLARE(winui3);
+
+G_END_DECLS
+
 namespace winrt::GstWinUI3::implementation {
 GstHelper::GstHelper()
   : init_done_(false)
@@ -34,6 +40,8 @@ GstHelper::GstHelper()
   }
 
   init_done_ = num_loaded == G_N_ELEMENTS(plugin_list);
+
+  GST_PLUGIN_STATIC_REGISTER(winui3);
 
   ctx_ = g_main_context_default();
   loop_ = g_main_loop_new(ctx_, FALSE);
