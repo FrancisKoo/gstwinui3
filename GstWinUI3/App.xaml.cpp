@@ -3,6 +3,10 @@
 #include "App.xaml.h"
 #include "MainWindow.xaml.h"
 
+#include "GstHelper.h"
+
+#include <stdexcept>
+
 using namespace winrt;
 using namespace Windows::Foundation;
 using namespace Microsoft::UI::Xaml;
@@ -45,6 +49,9 @@ App::App()
 void
 App::OnLaunched(LaunchActivatedEventArgs const&)
 {
+  if (!GstHelper::get()->initialized())
+    throw std::runtime_error("GStreamer is not initialized");
+
   window = make<MainWindow>();
   window.Activate();
 }
