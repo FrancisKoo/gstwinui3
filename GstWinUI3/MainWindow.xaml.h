@@ -7,6 +7,8 @@
 
 #pragma pop_macro("GetCurrentTime")
 
+#include "GstHelper.h"
+
 namespace winrt::GstWinUI3::implementation {
 struct MainWindow : MainWindowT<MainWindow>
 {
@@ -19,6 +21,11 @@ struct MainWindow : MainWindowT<MainWindow>
                       Microsoft::UI::Xaml::RoutedEventArgs const& args);
   void btnStop_Click(Windows::Foundation::IInspectable const& sender,
                      Microsoft::UI::Xaml::RoutedEventArgs const& args);
+
+  void runPipeline(void);
+  void stopPipeline(void);
+
+  GstElement* pipeline_;
 };
 }
 
