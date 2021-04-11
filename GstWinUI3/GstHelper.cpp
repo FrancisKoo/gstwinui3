@@ -23,9 +23,28 @@ GstHelper::GstHelper()
   gst_registry_fork_set_enabled(FALSE);
 
   gst_init(nullptr, nullptr);
-  static char* plugin_list[] = { { "gstcoreelements.dll" },
-                                 { "gstd3d11.dll" },
-                                 { "gstvideotestsrc.dll" } };
+  static char* plugin_list[] = {
+    { "gstaudiobuffersplit.dll" },
+    { "gstaudiorate.dll" },
+    { "gstaudiotestsrc.dll" },
+    { "gstautodetect.dll" },
+    { "gstaudioconvert.dll" },
+    { "gstaudioresample.dll" },
+    { "gstaudioparsers.dll" },
+    { "gstcoreelements.dll" },
+    { "gstd3d11.dll" },
+    { "gsttypefindfunctions.dll" },
+    { "gstisomp4.dll" },
+    { "gstlibav.dll" },
+    { "gstmediafoundation.dll" },
+    { "gstplayback.dll" },
+    { "gstvideoconvert.dll" },
+    { "gstvideoparsersbad.dll" },
+    { "gstvideorate.dll" },
+    { "gstvideoscale.dll" },
+    { "gstvideotestsrc.dll" },
+    { "gstwasapi2.dll" },
+  };
 
   for (int i = 0; i < G_N_ELEMENTS(plugin_list); i++) {
     GstPlugin* plugin = gst_plugin_load_file(plugin_list[i], nullptr);
