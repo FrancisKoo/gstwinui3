@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <GST_ADDITIONAL_LIBS>glib-2.0.lib;gobject-2.0.lib;gio-2.0.lib;gmodule-2.0.lib;gstreamer-1.0.lib;gstbase-1.0.lib;gstvideo-1.0.lib;gstd3d11-1.0.lib</GST_ADDITIONAL_LIBS>
+    <GST_INSTALL_PATH>C:\Work\gstreamer</GST_INSTALL_PATH>
+  </PropertyGroup>
+  <PropertyGroup>
+    <IncludePath>$(GST_INSTALL_PATH)\lib\glib-2.0\include;$(GST_INSTALL_PATH)\include\glib-2.0;$(GST_INSTALL_PATH)\lib\gstreamer-1.0\include;$(GST_INSTALL_PATH)\include\gstreamer-1.0;$(IncludePath)</IncludePath>
+    <LibraryPath>$(GST_INSTALL_PATH)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(GST_ADDITIONAL_LIBS);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <BuildMacro Include="GST_ADDITIONAL_LIBS">
+      <Value>$(GST_ADDITIONAL_LIBS)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+    <BuildMacro Include="GST_INSTALL_PATH">
+      <Value>$(GST_INSTALL_PATH)</Value>
+      <EnvironmentVariable>true</EnvironmentVariable>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
