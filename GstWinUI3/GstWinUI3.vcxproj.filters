@@ -25,6 +25,783 @@
   <ItemGroup>
     <None Include="PropertySheet.props" />
     <None Include="packages.config" />
+    <None Include="$(GST_INSTALL_PATH)\bin\z-1.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\xml2.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\swscale-5.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\swresample-3.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\sqlite3-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\soup-gnome-2.4-1.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\soup-2.4-1.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\psl-5.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\postproc-55.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\png16-16.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\pixman-1-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\pangowin32-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\pangoft2-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\pangocairo-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\pango-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\orc-test-0.4-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\orc-0.4-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\opus-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\openh264-4.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\microdns.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\json-glib-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\intl.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\harfbuzz-subset.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\harfbuzz-gobject.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\harfbuzz.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gthread-2.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstwebrtc-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstvideo-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstvalidate-default-overrides-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstvalidate-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gsturidownloader-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gsttranscoder-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gsttag-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstsdp-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstsctp-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstrtspserver-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstrtsp-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstrtp-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstriff-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstreamer-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstplayer-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstplay-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstphotography-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstpbutils-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstnet-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstmpegts-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstisoff-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstinsertbin-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstgl-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstfft-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstd3d11-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstcontroller-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstcodecs-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstcodecparsers-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstcheck-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstbasecamerabinsrc-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstbase-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstbadaudio-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstaudio-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstapp-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstallocators-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gstadaptivedemux-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\graphene-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gobject-2.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gmodule-2.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\glib-2.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\gio-2.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\ges-1.0-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\fribidi-0.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\freetype-6.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\fontconfig-1.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\ffi-7.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\expat.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\dv-4.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\cairo-script-interpreter-2.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\cairo-gobject-2.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\cairo-2.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\avutil-56.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\avresample-4.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\avformat-58.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\avfilter-7.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\avdevice-58.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\bin\avcodec-58.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaccurip.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstadder.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstadpcmdec.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstadpcmenc.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaiff.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstalaw.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstalpha.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstalphacolor.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstapetag.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstapp.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstasf.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstasfmux.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaudiobuffersplit.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaudioconvert.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaudiofx.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaudiofxbad.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaudiolatency.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaudiomixer.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaudiomixmatrix.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaudioparsers.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaudiorate.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaudioresample.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaudiotestsrc.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstaudiovisualizers.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstauparse.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstautoconvert.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstautodetect.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstavi.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstbayer.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstcairo.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstcamerabin.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstclosedcaption.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstcoloreffects.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstcompositor.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstcoreelements.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstcoretracers.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstcutter.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstd3d.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstd3d11.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdash.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdebug.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdebugutilsbad.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdecklink.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdeinterlace.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdirectsound.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdirectsoundsrc.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdtmf.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdv.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdvbsubenc.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdvbsuboverlay.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdvdlpcmdec.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdvdspu.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstdvdsub.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gsteffectv.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstencoding.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstequalizer.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstfaceoverlay.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstfestival.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstfieldanalysis.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstflv.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstflxdec.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstfreeverb.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstfrei0r.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstgaudieffects.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstgdp.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstgeometrictransform.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstges.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstgio.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstgoom.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstgoom2k1.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gsthls.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gsticydemux.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstid3demux.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstid3tag.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstimagefreeze.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstinter.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstinterlace.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstinterleave.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstipcpipeline.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstisomp4.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstivfparse.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstivtc.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstjp2kdecimator.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstjpegformat.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstlegacyrawparse.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstlevel.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstlibav.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmatroska.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmediafoundation.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmicrodns.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmidi.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmonoscope.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmpegpsdemux.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmpegpsmux.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmpegtsdemux.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmpegtsmux.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmsdk.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmulaw.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmultifile.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmultipart.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstmxf.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstnavigationtest.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstnetsim.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstnle.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstnvcodec.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstopengl.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstopenh264.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstopus.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstopusparse.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstoverlaycomposition.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstpango.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstpbtypes.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstpcapparse.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstplayback.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstpng.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstpnm.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstproxy.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstrawparse.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstrealmedia.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstremovesilence.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstreplaygain.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstrfbsrc.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstrist.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstrtmp2.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstrtp.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstrtpmanager.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstrtpmanagerbad.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstrtponvif.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstrtsp.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstrtspclientsink.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstsctp.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstsdpelem.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstsegmentclip.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstshapewipe.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstsiren.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstsmooth.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstsmoothstreaming.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstsmpte.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstsoup.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstspectrum.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstspeed.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstsubenc.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstsubparse.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstswitchbin.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gsttcp.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gsttimecode.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gsttranscode.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstttmlsubs.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gsttypefindfunctions.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstudp.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvalidatetracer.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvideobox.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvideoconvert.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvideocrop.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvideofilter.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvideofiltersbad.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvideoframe_audiolevel.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvideomixer.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvideoparsersbad.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvideorate.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvideoscale.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvideosignal.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvideotestsrc.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvmnc.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstvolume.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstwasapi.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstwasapi2.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstwaveform.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstwavenc.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstwavparse.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstwinks.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstwinscreencap.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstx264.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gstxingmux.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gsty4mdec.dll">
+      <Filter>Assets</Filter>
+    </None>
+    <None Include="$(GST_INSTALL_PATH)\lib\gstreamer-1.0\gsty4menc.dll">
+      <Filter>Assets</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt" />
