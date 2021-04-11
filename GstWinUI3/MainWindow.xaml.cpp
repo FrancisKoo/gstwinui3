@@ -29,8 +29,12 @@ void MainWindow::MyProperty(int32_t /* value */)
 }
 
 void
-MainWindow::myButton_Click(IInspectable const&, RoutedEventArgs const&)
-{
-  myButton().Content(box_value(L"Clicked"));
-}
+MainWindow::btnStart_Click(IInspectable const& sender,
+                           RoutedEventArgs const& args)
+{}
+
+void
+MainWindow::btnStop_Click(IInspectable const& sender,
+                          RoutedEventArgs const& args)
+{}
 }
