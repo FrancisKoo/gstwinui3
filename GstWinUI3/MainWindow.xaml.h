@@ -7,22 +7,20 @@
 
 #pragma pop_macro("GetCurrentTime")
 
-namespace winrt::GstWinUI3::implementation
+namespace winrt::GstWinUI3::implementation {
+struct MainWindow : MainWindowT<MainWindow>
 {
-    struct MainWindow : MainWindowT<MainWindow>
-    {
-        MainWindow();
+  MainWindow();
 
-        int32_t MyProperty();
-        void MyProperty(int32_t value);
+  int32_t MyProperty();
+  void MyProperty(int32_t value);
 
-        void myButton_Click(Windows::Foundation::IInspectable const& sender, Microsoft::UI::Xaml::RoutedEventArgs const& args);
-    };
+  void myButton_Click(Windows::Foundation::IInspectable const& sender,
+                      Microsoft::UI::Xaml::RoutedEventArgs const& args);
+};
 }
 
-namespace winrt::GstWinUI3::factory_implementation
-{
-    struct MainWindow : MainWindowT<MainWindow, implementation::MainWindow>
-    {
-    };
+namespace winrt::GstWinUI3::factory_implementation {
+struct MainWindow : MainWindowT<MainWindow, implementation::MainWindow>
+{};
 }

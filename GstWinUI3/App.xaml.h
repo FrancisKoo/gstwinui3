@@ -7,16 +7,16 @@
 
 #pragma pop_macro("GetCurrentTime")
 
-namespace winrt::GstWinUI3::implementation
+namespace winrt::GstWinUI3::implementation {
+struct App : AppT<App>
 {
-    struct App : AppT<App>
-    {
-        App();
+  App();
 
-        void OnLaunched(Microsoft::UI::Xaml::LaunchActivatedEventArgs const&);
-        void OnSuspending(IInspectable const&, Windows::ApplicationModel::SuspendingEventArgs const&);
+  void OnLaunched(Microsoft::UI::Xaml::LaunchActivatedEventArgs const&);
+  void OnSuspending(IInspectable const&,
+                    Windows::ApplicationModel::SuspendingEventArgs const&);
 
-    private:
-        winrt::Microsoft::UI::Xaml::Window window{ nullptr };
-    };
+private:
+  winrt::Microsoft::UI::Xaml::Window window{ nullptr };
+};
 }
