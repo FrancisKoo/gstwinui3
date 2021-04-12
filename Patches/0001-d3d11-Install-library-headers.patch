@@ -1,0 +1,50 @@
+From f915f35184986431abf542344bca689a87e164a1 Mon Sep 17 00:00:00 2001
+From: Seungha Yang <seungha@centricular.com>
+Date: Thu, 8 Apr 2021 17:49:33 +0900
+Subject: [PATCH] d3d11: Install library headers
+
+---
+ gst-libs/gst/d3d11/meson.build | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+
+diff --git a/gst-libs/gst/d3d11/meson.build b/gst-libs/gst/d3d11/meson.build
+index b520bdb63..a8af2a54f 100644
+--- a/gst-libs/gst/d3d11/meson.build
++++ b/gst-libs/gst/d3d11/meson.build
+@@ -9,6 +9,20 @@ d3d11_sources = [
+   'gstd3d11shader.cpp',
+ ]
+ 
++d3d11_install_headers = [
++  'd3d11-prelude.h',
++  'gstd3d11_fwd.h',
++  'gstd3d11.h',
++  'gstd3d11bufferpool.h',
++  'gstd3d11device.h',
++  'gstd3d11format.h',
++  'gstd3d11memory.h',
++  'gstd3d11utils.h',
++  'gstd3d11converter.h',
++  'gstd3d11overlaycompositor.h',
++  'gstd3d11shader.h',
++]
++
+ dxgi_headers = [
+   ['dxgi1_6.h', 6],
+   ['dxgi1_5.h', 5],
+@@ -178,9 +192,12 @@ endif
+ 
+ configure_file(
+   output: 'gstd3d11config.h',
++  install_dir : get_option('libdir') + '/gstreamer-1.0/include/gst/d3d11',
+   configuration: d3d11_conf,
+ )
+ 
++install_headers(d3d11_install_headers, subdir: 'gstreamer-1.0/gst/d3d11')
++
+ gstd3d11 = library('gstd3d11-' + api_version,
+   d3d11_sources,
+   c_args : gst_plugins_bad_args + extra_c_args,
+-- 
+2.25.1
+
