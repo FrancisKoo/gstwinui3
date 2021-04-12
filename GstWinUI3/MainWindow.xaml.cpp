@@ -52,8 +52,21 @@ MainWindow::btnStop_Click(IInspectable const&, RoutedEventArgs const&)
 void
 MainWindow::runPipeline()
 {
-  pipeline_ = gst_parse_launch(
-    "videotestsrc ! queue ! winui3videosink name=sink", nullptr);
+#define VIDEOTEST_STR "videotestsrc ! queue ! winui3videosink name=sink"
+#define MFVIDESRC_STR "mfvideosrc ! queue ! winui3videosink name=sink"
+#define SCREENCAP_STR "d3d11desktopdupsrc ! queue ! winui3videosink name=sink"
+
+#define FILE_PATH "C:/Work/gst-build/trailer.mp4"
+
+#define FILE_MP4_H264_AAC                                                      \
+  "filesrc location=" FILE_PATH " ! qtdemux name=d ! queue ! h264parse ! "     \
+  "d3d11h264dec ! winui3videosink name=sink"                                   \
+  " d. ! queue ! aacparse ! avdec_aac ! audioconvert ! audioresample ! "       \
+  "wasapi2sink"
+#define PIPELINE_STR FILE_MP4_H264_AAC
+
+  pipeline_ = gst_parse_launch(PIPELINE_STR, nullptr);
+  g_assert(pipeline_);
 
   GstElement* sink = gst_bin_get_by_name(GST_BIN_CAST(pipeline_), "sink");
   if (sink) {
